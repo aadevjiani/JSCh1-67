@@ -1,0 +1,14 @@
+fieldset{
+    border-radius: 3em;
+    text-align: justify;
+    margin-left: 10px;
+    text-indent: 4%;
+}
+
+#result{
+    margin-left: 500px;
+}
+
+/* #score{
+    margin-left: 550px;
+} */

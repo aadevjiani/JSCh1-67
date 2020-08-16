@@ -3,22 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Chapter 1-67 - Ali Abbas Devjiani</title>
+    <title>Test Yourself - Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Test Your Knowledge : Quiz Application</h1>
 
-<!-- Assignment Chapter 1-67 :: Ali Abbas Devjiani
+    <div>
+        <fieldset>
+            <p>What are the five colors of Olympic rings?</p>
+            <input name="question1" id="q1-op1" type="radio">Blue, yellow, black, green and red</input><br/>
+            <input name="question1" id="q1-op2" type="radio">Pink, yellow, black, green and red</input><br/>
+            <input name="question1" id="q1-op3" type="radio">Blue, grey, black, green and red</input><br/>
+            <input name="question1" id="q1-op4" type="radio">Blue, yellow, indigo, green and red</input>
+        </fieldset>
+    </div>
 
-Assignment Chapter 1-20 GitHub Link
-https://github.com/aadevjiani/Assignment5-JS.git
+    <br/><br/>
 
-Assignment Chapter 21-38 GitHub Link
-https://github.com/aadevjiani/Assignment6-JS.git
+    <div>
+        <fieldset>
+            <p>How many players are there in a rugby league team?</p>
+            <input name="question2" id="q2-op1" type="radio">15</input><br/>
+            <input name="question2" id="q2-op2" type="radio">13</input><br/>
+            <input name="question2" id="q2-op3" type="radio">11</input><br/>
+            <input name="question2" id="q2-op4" type="radio">12</input>
+        </fieldset>
+    </div>
 
-Assignment Chapter 39-67 - Code in app.js -->
+
+    <br/><br/>
+
+    <div>
+        <fieldset>
+            <p>Entomology is the science that studies?</p>
+            <input name="question3" id="q3-op1" type="radio">Plants</input><br/>
+            <input name="question3" id="q3-op2" type="radio">Human beings</input><br/>
+            <input name="question3" id="q3-op3" type="radio">Insects</input><br/>
+            <input name="question3" id="q3-op4" type="radio">Formation of Rocks</input>
+        </fieldset>
+    </div>
+
+    <br/><br/>
+
+    <div>
+        <fieldset>
+            <p>Hitler party which came into power in 1933 is known as?</p>
+            <input name="question4" id="q4-op1" type="radio">Labour Party</input><br/>
+            <input name="question4" id="q4-op2" type="radio">Nazi Party</input><br/>
+            <input name="question4" id="q4-op3" type="radio">Democratic Party</input><br/>
+            <input name="question4" id="q4-op4" type="radio">Republican Party</input>
+        </fieldset>
+    </div>
 
 
-    
+
+
+    <br/><br/>
+
+    <button id="result" onclick="validate()">Result</button>
+    <!-- <button id="score" onclick="alert('Your score is :' + score)">Score</button> -->
+    <button id="score" onclick="count()">Score</button>
+
+    <script src="app.js"></script>
 </body>
-<script src = app.js></script>
+    
 </html>
